@@ -1,0 +1,11 @@
+{
+    "name": "ng-quick",
+    "version": "0.1.0",
+    "dependencies": {},
+    "devDependencies": {
+        "angular": ">=1.2.16",
+        "jquery": ">= 2.1.0",
+        "bootstrap": ">=3.1.1",
+        "modernizr": "latest"
+    }
+}
