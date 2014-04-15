@@ -24,19 +24,19 @@
         </p>
         <![endif]-->
 
+        <div ng-include="'view/navigation.tpl.html'"></div>
         <div ng-include="'view/main.tpl.html'"></div>
+        <div ui-view></div>
 
-        <div class="container">
-            <h3>1. Simple directives</h3>
-        </div>
-
-        <div ng-include="'view/simple-directive.tpl.html'"></div>
-
+        <!-- Vendor JS -->
         <script src="../bower_components/modernizr/modernizr.js"></script>
         <script src="../bower_components/jquery/dist/jquery.js"></script>
         <script src="../bower_components/bootstrap/dist/js/bootstrap.js"></script>
         <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <!-- Custom JS -->
         <script src="app.js"></script>
+        <script src="config.js"></script>
         <script src="directives/simple/simple.js"></script>
     </body>
 </html>
